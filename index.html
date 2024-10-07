@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <title>Biểu mẫu</title>
+    <meta name="keyword" content="form, basic, biểu mẫu">
+    <meta charset="UTF-8">
+    <meta name="description" content="một website đơn giản điền thông tin cơ bản">
+
+</head>
+<body>
+    <form>
+        <label for="Username" >User name:</label>
+        <input type="text" name="Username" id="Username">
+        <label for="email">Your email:</label>
+        <input type="email" name="email" id="email">
+        <label for="Password">Password:</label>
+        <input type="password" name="Password" id="Password"><br>
+        <input type="radio" name="gender" id="Male" value="Male">Male<br>
+        <input type="radio" name="gender" id="FMale" value="Female">Female<br>
+        <input type="radio" name="gender" id="Other" value="Other">Other<br>
+        <input list="Options">
+        <datalist id="Options">
+            <option value="Thành viên bạc"></option>
+            <option value="Thành viên vàng"></option>
+            <option value="Thành viên kim cương"></option>
+        </datalist>
+        <input type="color">
+        <input type="checkbox" id="correct" value="correct"> correct
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
