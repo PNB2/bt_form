@@ -3,13 +3,15 @@
 }
 body{
     margin: 50px;
-    padding: 0px;
-    background-color: beige;
 }
 form input{
     margin: 6px;
     padding: 5px;
+}
+form{
+    border: 1px solid black;
     border-radius: 5px;
+    padding: 10px;
 }
 form label{
     padding: 10px;
